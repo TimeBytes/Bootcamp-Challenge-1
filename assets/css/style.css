@@ -36,8 +36,9 @@ p {
   font-size: 48px;
 }
 
+/*Emphasis on the letters SEO in the webpage name*/
 #seo {
-  color: #d9dcd6;
+  color: black;
 }
 
 .header nav {

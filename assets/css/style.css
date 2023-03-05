@@ -1,3 +1,4 @@
+/*Reset page style*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,6 +13,16 @@ img {
   max-height: 200px;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*Beginning of header and navigation */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -45,16 +56,9 @@ img {
   display: inline-block;
   margin-left: 25px;
 }
+/*End of header and navigation styles*/
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
-
+/*background image, size, and position*/
 .background-image {
   height: 800px;
   width: 100%;
@@ -74,6 +78,7 @@ p {
   margin-left: 25px;
 }
 
+/*Beginning of contents*/
 .contents-section {
   width: 75%;
   display: inline-block;
@@ -93,7 +98,9 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
+/*End of contents*/
 
+/*Beginning of benefits*/
 .benefits-section {
   margin-right: 20px;
   padding: 20px;
@@ -105,22 +112,24 @@ p {
   background-color: #0072bb;
 }
 
-.benefit {
+.benefits-section section {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit h3 {
+.benefits-section h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit img {
+.benefits-section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
+/*End of benefits*/
 
+/*Beginning of footer*/
 .footer {
   padding: 30px;
   clear: both;
@@ -132,3 +141,4 @@ p {
 .footer h4 {
   font-size: 20px;
 }
+/*End of footer*/

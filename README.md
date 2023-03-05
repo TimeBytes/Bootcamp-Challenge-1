@@ -13,6 +13,8 @@ Clicking the navigation links on the header will redirect you to the part of the
 
 ![Screenshot of what the page should look like](assets/images/Screenshot.png)
 
+Link to webpage: https://timebytes.github.io/Marketing-Agency-Accessibility/
+
 ## Credits
 
 Source code from University of toronto bootcampspot Module 1 Challenge by Horiseon  
